@@ -1,6 +1,6 @@
 import { AsyncStorage } from 'react-native'
 
-const DECK_STORAGE_KEY = 'JOHN'
+const DECK_STORAGE_KEY = 'JK1'
 
 const testData = {
   React: {
@@ -37,8 +37,10 @@ export function saveDeckTitle ( title ) {
 
   return AsyncStorage.mergeItem(DECK_STORAGE_KEY, JSON.stringify({
     [title]: {
-      'title': title
+      'title': title,
+      'questions': []
     }
+
   }))
 }
 

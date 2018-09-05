@@ -9,7 +9,7 @@ function SubmitBtn ({ onPress }) {
     <TouchableOpacity
       style={Platform.OS === 'ios' ? styles.iosSubmitBtn : styles.AndroidSubmitBtn}
       onPress={onPress}>
-        <Text style={styles.submitBtnText}>SUBMIT</Text>
+        <Text style={styles.submitBtnText}>Create Deck</Text>
     </TouchableOpacity>
   )
 }
@@ -38,7 +38,7 @@ export class AddDeck extends Component {
 
     return (
 
-      <View>
+      <View style={styles.center}>
       <TextInput
           style={{height: 40}}
           placeholder="Enter Title of Deck"
