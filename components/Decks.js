@@ -1,14 +1,20 @@
 import React, { Component } from 'react'
 import { View, TouchableOpacity, Text, Platform, StyleSheet, FlatList } from 'react-native'
 import { getDecks } from '../utils/api'
+import { DeckView } from './DeckView'
 
-function Deck ({title, questions}) {
+
+function Deck ({title, questions, navigation}) {
 
   return (
 
     <View>
+    <TouchableOpacity onPress={() => navigation.navigate(
+      'DeckView',
+      {title: title}
+      )} navigation={navigation}>
     {title !== null && <Text>{title}, {questions} Cards</Text>}
-
+    </TouchableOpacity>
     </View>
 
     )
@@ -28,7 +34,7 @@ export class Decks extends Component {
       <View style={styles.center}>
 
        {
-          Object.keys(this.state).map((deck) => <Deck key={this.state[deck].title} title={this.state[deck].title} questions={this.state[deck].questions.length} />)
+          Object.keys(this.state).map((deck) => <Deck key={this.state[deck].title} title={this.state[deck].title} questions={this.state[deck].questions.length} navigation={this.props.navigation} />)
     }
 
       </View>

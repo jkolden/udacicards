@@ -2,9 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View, Platform } from 'react-native';
 import { AddDeck } from './components/AddDeck'
 import { Decks } from './components/Decks'
-import { createBottomTabNavigator } from 'react-navigation';
+import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 import { white, purple } from './utils/colors'
 import { FontAwesome, Ionicons } from '@expo/vector-icons'
+import { DeckView } from './components/DeckView'
 
 
 const Tabs = createBottomTabNavigator({
@@ -42,12 +43,27 @@ const Tabs = createBottomTabNavigator({
   }
 })
 
+const MainNavigator = createStackNavigator({
+  Home: {
+    screen: Tabs,
+  },
+  DeckView: {
+    screen: DeckView,
+    navigationOptions: {
+      headerTintColor: white,
+      headerStyle: {
+        backgroundColor: purple,
+      }
+    }
+  }
+})
+
 
 export default class App extends React.Component {
   render() {
     return (
 
-        <Tabs />
+        <MainNavigator />
 
 
     );
