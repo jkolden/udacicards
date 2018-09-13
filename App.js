@@ -39,11 +39,11 @@ const Tabs = createBottomTabNavigator(
     },
     tabBarOptions: {
       labelStyle: { fontSize: 20 },
-      activeTintColor: '#000',
+      activeTintColor: '#00000f',
 
       style: {
         height: 56,
-        backgroundColor: '#FFF',
+        backgroundColor: '#fff',
         shadowColor: 'rgba(0, 0, 0, 0.24)',
         shadowOffset: {
           width: 0,
@@ -63,36 +63,36 @@ const MainNavigator = createStackNavigator({
   DeckView: {
     screen: DeckView,
     navigationOptions: {
-      headerTintColor: '#000000',
+      headerTintColor: '#00000f',
       headerStyle: {
-        backgroundColor: '#FFFFF',
+        backgroundColor: '#fff',
       },
     },
   },
   Question: {
     screen: Question,
     navigationOptions: {
-      headerTintColor: '#000000',
+      headerTintColor: '#00000f',
       headerStyle: {
-        backgroundColor: '#FFFFF',
+        backgroundColor: '#fff',
       },
     },
   },
   Quiz: {
     screen: Quiz,
     navigationOptions: {
-      headerTintColor: '#000000',
+      headerTintColor: '#00000f',
       headerStyle: {
-        backgroundColor: '#FFFFF',
+        backgroundColor: '#fff',
       },
     },
   },
   QuizSummary: {
     screen: QuizSummary,
     navigationOptions: {
-      headerTintColor: '#000000',
+      headerTintColor: '#00000f',
       headerStyle: {
-        backgroundColor: '#FFFFF',
+        backgroundColor: '#fff',
       },
     },
   },

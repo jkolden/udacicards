@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
   text: {
-    height: 30,
+    height: 60,
     fontSize: 20
   }
 });

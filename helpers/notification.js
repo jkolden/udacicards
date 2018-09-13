@@ -1,8 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View, AsyncStorage } from "react-native";
 import { Notifications, Permissions } from "expo";
+import moment from 'moment'; // 2.22.2
 
-const NOTIFICATION_KEY = "UdaciFitness:notifications";
+
+const NOTIFICATION_KEY = "Udacicards:notify";
 
 export function clearLocalNotification() {
   return AsyncStorage.removeItem(NOTIFICATION_KEY).then(
@@ -12,8 +14,8 @@ export function clearLocalNotification() {
 
 function createNotification() {
   return {
-    title: "Log your stats!",
-    body: "👋 don't forget to log your stats for today!",
+    title: "Study for your quiz!",
+    body: "👋 Don't forget to study for your quizzes today!",
     ios: { sound: true },
     android: { sound: true, priority: "high", sticky: false, vibrate: true }
   };
@@ -28,11 +30,7 @@ export function setLocalNotification() {
           if (status === "granted") {
             Notifications.cancelAllScheduledNotificationsAsync();
 
-            let r = new Date();
-            r.setDate(r.getDate());
-            r.setHours(10);
-            r.setMinutes(29);
-            alert(r)
+            let r = (new Date()).getTime() + 120000;
 
             Notifications.scheduleLocalNotificationAsync(createNotification(), {
               time: r,

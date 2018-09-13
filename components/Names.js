@@ -12,7 +12,7 @@ export default class Names extends Component {
 
     return (
       <View style={styles.container, {flex: 1, flexDirection: 'row'}}>
-        <FlatList style={{flex: 1, backgroundColor: 'powderblue'}}
+        <FlatList style={{flex: 1}}
           data={Object.keys(data)}
           renderItem={({item}) =><Card><TouchableOpacity onPress={() =>
               navigation.navigate('DeckView', data[item])}><Text style={styles.item}>{item} </Text><Text style={styles.item}>{data[item].questions.length} Cards</Text></TouchableOpacity></Card>}
