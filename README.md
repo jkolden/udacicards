@@ -10,7 +10,7 @@ This application allows users to create decks of flashcards to assist them when 
 - cd into the directory and run `$ yarn install` to install the dependencies.
 - To start the application, run `yarn start`.
 _ You may need to run the following commands the first time running this project:
-  - `sudo sysctl -w kern.maxfiles=5242880
+  - `sudo sysctl -w kern.maxfiles=5242880`
   - `sudo sysctl -w kern.maxfilesperproc=524288`
 - It may take a couple minutes to start the first time this is run.
 - Follow the screen prompts to run in an iOS or Android simulator, or better yet, select the `s` option to send a link to your mobile device so you can run the application from your phone.
