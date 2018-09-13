@@ -1,13 +1,16 @@
+# Udacicards Project for Udacity React Nanodegree
+
 This is the Udacicards project for Udacity's React Nanodegree. This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 This application allows users to create decks of flashcards to assist them when studying for exams. Below you'll find information about performing common tasks using this native mobile application.
 ## How to Install
 
 - Clone this repo into a local directory on your machine: `https://github.com/jkolden/udacicards.git`
-- cd into the directory and run `$ npm install` to install the dependencies.
+- install yarn `brew install yarn`. 
+- cd into the directory and run `$ yarn install` to install the dependencies.
 - To start the application, run `yarn start`.
+- It may take a couple minutes to start the first time this is run.
 - Follow the screen prompts to run in an iOS or Android simulator, or better yet, select the `s` option to send a link to your mobile device so you can run the application from your phone.
-
 
 ## How to use this application
 
