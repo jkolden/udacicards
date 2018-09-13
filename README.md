@@ -28,6 +28,8 @@ To quiz yourself on these flash cards from the main decks view, simply tap the d
 
 <img width="425" alt="pastedgraphic-5" src="https://user-images.githubusercontent.com/21246211/45512559-e8764100-b754-11e8-99f6-16ab9784caf1.png">
 
-If you get stuck on a question, you can reveal the answer by clicking the `Answer` button and the answer will animate into view.
+If you get stuck on a question, you can reveal the answer by clicking the `Answer` button and the answer will animate into view. You will also receive a daily reminder to study for your quizzes!
+
+![img_8742](https://user-images.githubusercontent.com/21246211/45513434-8965fb80-b757-11e8-9bf9-c658d34ab874.PNG)
 
 Continue using this application to create additional decks. You can always come back to a deck to add additional questions in order to further your studies.
