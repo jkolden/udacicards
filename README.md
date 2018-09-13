@@ -15,6 +15,8 @@ As mentioned above, this application will help you study for quizzes and tests b
 
 To begin, select the `Add Deck` tab at the bottom of the screen. This will take you to an input form where you can create a new deck of flashcard. Give the deck a unique name and the `Submit` button will activate. After the deck is created you will be returned to the `Decks` view.
 
+<img width="410" alt="pastedgraphic-2" src="https://user-images.githubusercontent.com/21246211/45512306-46eeef80-b754-11e8-833b-fa29b892087d.png">
+
 Next, click on the deck and you will be taken to the screen where you can add new flashcards to the deck. Enter a question and answer and choose the option to save and return the decks view, or choose `save and create another` to remain on this page to create additional decks.
 
 To quiz yourself on these flash cards from the main decks view, simply tap the deck name and then click `Start Quiz`. You can answer each question in the deck with a correct or incorrect button and when complete you will be routed to a quiz summary. You'll also receive study suggestions on any areas that you answered incorrectly!
