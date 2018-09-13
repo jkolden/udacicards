@@ -9,7 +9,7 @@ This application allows users to create decks of flashcards to assist them when 
 - install yarn `brew install yarn`.
 - cd into the directory and run `$ yarn install` to install the dependencies.
 - To start the application, run `yarn start`.
-_ You may need to run the following commands the first time running this project:
+- You may need to run the following commands the first time running this project:
   - `sudo sysctl -w kern.maxfiles=5242880`
   - `sudo sysctl -w kern.maxfilesperproc=524288`
 - It may take a couple minutes to start the first time this is run.
