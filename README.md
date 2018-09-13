@@ -19,6 +19,8 @@ To begin, select the `Add Deck` tab at the bottom of the screen. This will take 
 
 Next, click on the deck and you will be taken to the screen where you can add new flashcards to the deck. Enter a question and answer and choose the option to save and return the decks view, or choose `save and create another` to remain on this page to create additional decks.
 
+<img width="417" alt="pastedgraphic-4" src="https://user-images.githubusercontent.com/21246211/45512425-8b7a8b00-b754-11e8-8d5b-f57161f3c387.png">
+
 To quiz yourself on these flash cards from the main decks view, simply tap the deck name and then click `Start Quiz`. You can answer each question in the deck with a correct or incorrect button and when complete you will be routed to a quiz summary. You'll also receive study suggestions on any areas that you answered incorrectly!
 
 If you get stuck on a question, you can reveal the answer by clicking the `Answer` button and the answer will animate into view.
